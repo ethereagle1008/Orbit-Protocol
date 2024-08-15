@@ -10,7 +10,7 @@ doctest = false
 [profile.release-with-logs]
 inherits = "release"
 debug-assertions = true
-
+ 
 [profile.release]
 opt-level = "z"
 overflow-checks = true # DEV: Do not remove this check - doing so will create vulnerabilities
